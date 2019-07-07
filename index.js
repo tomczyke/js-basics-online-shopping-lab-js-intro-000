@@ -25,7 +25,6 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else if (cart.length === 1) {
     return `In your shopping cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}`;
-
   }
 
   }
