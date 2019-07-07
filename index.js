@@ -22,9 +22,8 @@ function viewCart() {
   // write your code here
   var statementArray = [];
   if (cart.length === 0){
-    console.log("Your shopping cart is empty.")
+    return "Your shopping cart is empty.";
   }
-
 }
 
 function total() {
